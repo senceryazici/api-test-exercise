@@ -7,7 +7,7 @@ import random
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-sock.bind(("localhost", 1865))
+sock.bind(("localhost", 1864))
 sock.listen(1)
 print "Server Started"
 
